@@ -38,7 +38,7 @@ AUTHOR_EMAIL = "aliyun-developers-efficiency@list.alibaba-inc.com"
 URL = "http://develop.aliyun.com/sdk/python"
 
 TOPDIR = os.path.dirname(__file__) or "."
-VERSION = __import__(PACKAGE).__version__
+VERSION = "1.0.0"
 
 desc_file = open("README.rst")
 try:
